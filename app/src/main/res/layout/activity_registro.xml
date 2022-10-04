@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundpink">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="@string/usuario"
+        android:minHeight="48dp"
+        android:textColorHint="#E1BEE7"
+        android:textSize="15sp"
+        tools:ignore="Autofill,TextFields,TextContrastCheck" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:minHeight="48dp"
+        android:textColorHint="#E1BEE7"
+        android:textSize="15sp"
+        tools:ignore="Autofill,TextFields,TextContrastCheck" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:minHeight="48dp"
+        android:textColorHint="#E1BEE7"
+        android:textSize="15sp"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edad"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColorHint="#E1BEE7"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        tools:ignore="Autofill,TextFields" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Firmar"
+        android:onClick="onRegister"
+        android:textColorHint="#BBDEFB"
+        tools:ignore="HardcodedText,TextContrastCheck,UsingOnClickInXml" />
+
+
+</LinearLayout>
