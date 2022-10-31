@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpink">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:autofillHints=""
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:hint="@string/titulo"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            tools:ignore="TextViewEdits" />
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_below="@+id/tvTitulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:hint="@string/descripcion"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColorHint="#757575"
+            android:gravity="top"
+            tools:ignore="TextViewEdits" />
+
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Menu"
+            android:layout_below="@+id/tvDescripcion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroundpink"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+</ScrollView>

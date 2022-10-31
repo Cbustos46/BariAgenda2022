@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroundpink"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/notes"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription,ImageContrastCheck"
+        android:contentDescription="TODO" />
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/notes"
+        android:layout_width="250dp"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:text="BariAgenda"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtitle"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtitle"
+        android:background="#20FFFFFF"
+        android:layout_marginTop="10dp"
+        app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUsuario1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario"
+            android:textColor="@color/black"
+            android:background="#20FFFFFF"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:background="#20FFFFFF"
+        android:layout_marginTop="10dp"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#20FFFFFF"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="10dp"
+        android:onClick="onLogin"
+        android:text="Ingresar"
+        android:background="@drawable/backgroundpink"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/backgroundpink"
+        android:text="Registrarse"
+        android:onClick="onRegister">
+    </Button>
+
+    <TextView
+        android:id="@+id/msgtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/dedo"
+        tools:ignore="SpeakableTextPresentCheck" />
+</RelativeLayout>

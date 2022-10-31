@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@android:string/untitled"
+    tools:context=".NotasActivity"
+    android:background="@drawable/backgroundpink">
+
+
+    <EditText
+        android:id="@+id/etTitulo1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="@string/titulo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/etTitulo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:hint="@string/descripcion"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#757575"
+        android:gravity="top"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDescripcion"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favorito"
+            android:buttonTint="@color/verde"
+            tools:ignore="UnusedAttribute,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personal"
+            android:buttonTint="@color/amarillo"
+            tools:ignore="UnusedAttribute,TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/basura"
+            android:buttonTint="@color/rojo"
+            tools:ignore="UnusedAttribute,TouchTargetSizeCheck" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:background="@drawable/backgroundpink"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/etDescripcion"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/agregar"
+        android:textColorHint="@color/white"
+        tools:ignore="UsingOnClickInXml" />
+
+
+
+
+</RelativeLayout>
