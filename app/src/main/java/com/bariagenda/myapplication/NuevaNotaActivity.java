@@ -43,6 +43,7 @@ public class NuevaNotaActivity extends AppCompatActivity {
                 insertar();
             }
         });
+
     }
 
     public void insertar()
