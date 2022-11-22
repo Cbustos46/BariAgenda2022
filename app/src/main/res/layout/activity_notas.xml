@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@android:string/untitled"
+    tools:context=".NotasActivity"
+    android:background="@drawable/backgroundpink">
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/backgroundpink"
+        android:text="Cerrar Sesión"
+        android:textSize="10sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/titulonotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:text="MENU"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:background="@drawable/backgroundpink"
+        android:id="@+id/btnCrear"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/crear_notas"
+        android:onClick="onCrear"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titulonotas"
+        android:layout_marginTop="65dp"
+        tools:ignore="UsingOnClickInXml" />
+
+
+
+    <Button
+        android:background="@drawable/backgroundpink"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnContacto"
+        android:text="@string/contactos"
+        android:textSize="20sp"
+        android:onClick="onContacto"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_lnotas"
+        android:layout_marginTop="30dp"
+        tools:ignore="UsingOnClickInXml" />
+    <Button
+        android:id="@+id/btn_lnotas"
+        android:background="@drawable/backgroundpink"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Notas"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnCrear"
+
+        android:layout_marginTop="30dp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:contentDescription="@android:string/untitled" />
+
+    <CheckBox
+        android:id="@+id/chkValorar"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rating"
+        android:text="@string/valora_nuestro_trabajo"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="TouchTargetSizeCheck"/>
+
+    <Button
+        android:id="@+id/btnValorar"
+        android:background="@drawable/backgroundpink"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/valorar"
+        android:onClick="btnvotar"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/chkValorar"
+        tools:ignore="UsingOnClickInXml" />
+
+
+
+</RelativeLayout>

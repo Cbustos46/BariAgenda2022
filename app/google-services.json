@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365535376466",
+    "project_id": "fir-123-32666",
+    "storage_bucket": "fir-123-32666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365535376466:android:f1c497011b05326b1b5b8b",
+        "android_client_info": {
+          "package_name": "com.bariagenda.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365535376466-prmu3ofbh3i1o8usls4iivg1v498rt0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3q1MW_NRqCDVLg_AX1JTCtdD_fyrETTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365535376466-prmu3ofbh3i1o8usls4iivg1v498rt0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

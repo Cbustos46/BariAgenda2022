@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logostotomas"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/logostotomas"
+        android:layout_centerVertical="true"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logostotomas"
+        android:indeterminate="true"
+        android:indeterminateTint="#830000">
+
+    </ProgressBar>
+</RelativeLayout>

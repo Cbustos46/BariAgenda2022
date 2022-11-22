@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BariAgenda</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="registrar">Registrar</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="name">Name</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="e_mail">E-mail</string>
+    <string name="email">Email</string>
+    <string name="edad">Edad</string>
+    <string name="title_activity_notas">NotasActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="crear_notas">Crear Notas</string>
+    <string name="lista_notas">Lista Notas</string>
+    <string name="guardar">Guardar</string>
+    <string name="agregar">Agregar</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="titulo">Titulo</string>
+    <string name="favorito">Favorito</string>
+    <string name="personal">Personal</string>
+    <string name="basura">Basura</string>
+    <string name="valora_nuestro_trabajo">VALORA NUESTRO TRABAJO</string>
+    <string name="valorar">valorar</string>
+    <string name="contactos">Contactos</string>
+    <string name="imagen">imagen</string>
+    <string-array name="filtro_array">
+        <item />
+        <item>Nuevos</item>
+        <item>Favoritos</item>
+        <item>Hace mas de 1 semana</item>
+        <item>Hace mas de 3 semanas</item>
+    </string-array>
+    <string name="mapbox_access_token" tools:ignore="Typos">sk.eyJ1IjoiZml6Z29uIiwiYSI6ImNsOW9ydnFyYzA0MHEzcG0zdGVuNHhqaHIifQ.rRc1L5t9GJYFthV66Wa84g</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="notas">NOTAS</string>
+    <string name="editar_nota">Editar Nota</string>
+    <string name="id">ID</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundpink">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:hint="Nombre"
+        android:minHeight="48dp"
+        android:textColorHint="#E1BEE7"
+        android:textSize="15sp"
+        tools:ignore="Autofill,TextFields,TextContrastCheck" />
+    <EditText
+        android:id="@+id/emailuser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:hint="Correo"
+        android:minHeight="48dp"
+        android:textColorHint="#E1BEE7"
+        android:textSize="15sp"
+        tools:ignore="Autofill,TextFields,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:minHeight="48dp"
+        android:textColorHint="#E1BEE7"
+        android:textSize="15sp"
+        tools:ignore="Autofill,TextFields,TextContrastCheck" />
+
+
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Firmar"
+        android:textColorHint="#BBDEFB"
+        tools:ignore="HardcodedText,TextContrastCheck,UsingOnClickInXml" />
+
+
+</LinearLayout>
